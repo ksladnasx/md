@@ -1,0 +1,81 @@
+# 一些碎碎念
+
+​                                                                                                                                                                                         王涵    2023211435  
+
+## 有关第一次作业 
+
+因为体测与团支书的缘故，实在来不及做这些，就把大一作为初学者做的内容进行修改，加上了外联CSS样式和表单以及flex-box盒子，略显粗糙，见谅。
+
+## 有关进度
+
+我略翻了一下，第一天就把HTML和CSS学完了，还学了动画，有点担心赶不上（。
+
+动画我以前倒是很有兴趣但也大底忘光了，类似这样？
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            border: 0;
+        }
+        @keyframes move {
+            0%{
+                transform: translate(0,0);
+            }
+            25%{
+                transform: translate(1000px,0px);
+            }
+            50%{
+                transform: translate(1000px,600px);
+            }
+            75%{
+                transform: translate(0,600px);
+            }
+            100%{
+                transform: translate(0,0);
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            animation-name: move;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-timing-function: ease;
+        }
+        div:hover{
+            animation-play-state: paused;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="hh">
+        <div>
+
+        </div>
+    </div>
+    <div style="background-color: aquamarine;">
+        <div style="background-color: aquamarine;">
+
+        </div>
+    </div>
+</body>
+</html>
+```
+
+
+
+## 有关作业
+
+可能后面因为太忙会出现晚交或迟交作业的情况，还请见谅。
+
+**总而言之，言而总之，往后还请学长多多关照了！**
